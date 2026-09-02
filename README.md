@@ -3,10 +3,6 @@
 Aplicación desarrollada con **Laravel 12, PHP y SQLite**, utilizando Blade para la interfaz y Tailwind CSS para los estilos.
 
 ## Instalación
-Instalar dependencias:
-
-## Instalación
-
 Clonar el repositorio:
 
 ```bash
