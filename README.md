@@ -10,15 +10,11 @@ git clone https://github.com/Iceex/Reserva-Reto.git reserva-tecnica
 cd reserva-tecnica
 ```
 
-## --------------
-
 Dependencias:
 
 ```bash
 composer install
 ```
-
-## --------------
 
 Crear el archivo de entorno:
 
@@ -26,15 +22,11 @@ Crear el archivo de entorno:
 copy .env.example .env
 ```
 
-## --------------
-
 Generar la clave de la aplicación:
 
 ```bash
 php artisan key:generate
 ```
-
-## --------------
 
 Ejecutar migraciones y seeders:
 
@@ -42,15 +34,11 @@ Ejecutar migraciones y seeders:
 php artisan migrate:fresh --seed
 ```
 
-## --------------
-
 Iniciar el servidor:
 
 ```bash
 php artisan serve
 ```
-
-## --------------
 
 Abrir:
 
