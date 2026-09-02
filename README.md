@@ -2,31 +2,43 @@
 
 Aplicación desarrollada con **Laravel 12, PHP y SQLite**, utilizando Blade para la interfaz y Tailwind CSS para los estilos.
 
-## instalación
-
-## Ignorar sí ya lo tienen
+## Instalación
 Instalar dependencias:
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/Iceex/Reserva-Reto.git reserva-tecnica
+cd reserva-tecnica
+```
+
+## --------------
+
+Dependencias:
 
 ```bash
 composer install
 ```
+
 ## --------------
 
-Crear un proyecto Laravel 12 limpio:
+Crear el archivo de entorno:
 
 ```bash
-composer create-project laravel/laravel reserva-tecnica "^12.0"
-
-cd reserva-tecnica
+copy .env.example .env
 ```
 
-Generar la clave:
+## --------------
+
+Generar la clave de la aplicación:
 
 ```bash
 php artisan key:generate
 ```
 
-Copiar los archivos de esta prueba sobre el proyecto Laravel limpio
+## --------------
 
 Ejecutar migraciones y seeders:
 
@@ -34,17 +46,22 @@ Ejecutar migraciones y seeders:
 php artisan migrate:fresh --seed
 ```
 
+## --------------
+
 Iniciar el servidor:
 
 ```bash
 php artisan serve
 ```
 
+## --------------
+
 Abrir:
 
 ```text
 http://127.0.0.1:8000
 ```
+
 
 ## usuario de prueba
 
